@@ -2,6 +2,8 @@ module github.com/timescale/tsbs
 
 go 1.14
 
+replace sourcegraph.com/sourcegraph/appdash v0.0.0-20190731080439-ebfcffb1b5c0 => github.com/sourcegraph/appdash v0.0.0-20211028080628-e2786a622600
+
 require (
 	github.com/HdrHistogram/hdrhistogram-go v1.0.0
 	github.com/SiriDB/go-siridb-connector v0.0.0-20190110105621-86b34c44c921
